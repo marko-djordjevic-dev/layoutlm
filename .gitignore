@@ -1,0 +1,84 @@
+# Frontend
+## dependencies
+frontend/node_modules
+frontend/.pnp
+frontend/.pnp.js
+
+## testing
+frontend/coverage
+
+## production
+frontend/build
+
+## misc
+frontend/.DS_Store
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Backend
+## Python
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/*.so
+backend/.Python
+backend/env/
+backend/venv/
+backend/ENV/
+backend/.env
+backend/*.log
+
+## Distribution / packaging
+backend/dist/
+backend/build/
+backend/eggs/
+backend/*.egg-info/
+
+## PyCharm
+.idea/
+
+## VS Code
+.vscode/
+
+## System Files
+.DS_Store
+Thumbs.db
+
+## Model files and large data
+*.pth
+*.onnx
+*.bin
+*.h5
+*.model
+*.pkl
+
+## Temporary files
+*.swp
+*.swo
+*~
+
+## Local development
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+## Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+## Cache directories
+.cache/
+.pytest_cache/
+.mypy_cache/
+__pycache__/ 
